@@ -1,0 +1,206 @@
+/* Variables */
+/* RGB */
+/* Mixins */
+.green-button {
+  background: #00d172;
+  border: 2px solid #00875c;
+  color: #fff;
+  padding: 0 20px;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #00d172;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #00d172 0%, #00A672 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00d172), color-stop(100%, #00A672));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #00d172 0%, #00A672 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #00d172 0%, #00A672 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #00d172 0%, #00A672 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #00d172 0%, #00A672 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+  .green-button:hover {
+    color: #fff;
+    background: #00d172;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #00d172 0%, #00d172 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00d172), color-stop(100%, #00d172));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #00d172 0%, #00d172 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #00d172 0%, #00d172 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #00d172 0%, #00d172 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #00d172 0%, #00d172 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+    /* IE6-9 */
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s; }
+
+/***************** NAVBAR *****************/
+#nav {
+  border-bottom: 5px solid #2366c5; }
+  #nav img {
+    width: 100px;
+    padding: 10px 0 10px 10px; }
+  #nav ul {
+    margin-right: 15px !important; }
+    #nav ul li {
+      font-size: 1.6em;
+      padding: 20px 20px 3px;
+      transition: all 0.2s; }
+    #nav ul li:hover {
+      background-color: #f5f5f5;
+      color: #fff;
+      border-top: 3px solid #2366c5; }
+
+/* Header */
+header {
+  background: url("home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  color: #fff;
+  z-index: 1 !important;
+  margin-top: 70px !important;
+  padding-left: 5px;
+  padding-right: 5px; }
+  @media only screen and (max-width: 992px) {
+    header {
+      background: url("");
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: #f5f5f5; } }
+  @media only screen and (max-width: 400px) {
+    header {
+      margin-top: 80px !important; } }
+  @media only screen and (max-width: 350px) {
+    header {
+      margin-top: 70px !important; } }
+  header img {
+    max-width: 100%; }
+    @media only screen and (min-width: 993px) {
+      header img {
+        display: none; } }
+  header .mask {
+    background-color: rgba(52, 167, 215, 0.95);
+    position: absolute;
+    height: 538px;
+    width: 100%;
+    margin: 0 -5px;
+    -webkit-clip-path: polygon(0 0, 645px 0, 705px 100%, 0% 100%);
+    clip-path: polygon(0 0, 645px 0, 705px 100%, 0% 100%); }
+    @media only screen and (max-width: 1385px) {
+      header .mask {
+        -webkit-clip-path: polygon(0 0, 520px 0, 580px 100%, 0% 100%);
+        clip-path: polygon(0 0, 500px 0, 560px 100%, 0% 100%); } }
+    @media only screen and (max-width: 992px) {
+      header .mask {
+        display: none; } }
+  header .header-content {
+    position: relative;
+    height: 100%;
+    padding: 50px 0; }
+    @media only screen and (max-width: 992px) {
+      header .header-content {
+        padding: 10px 0 50px; } }
+    header .header-content h1 {
+      color: #fff;
+      font-family: 'Baloo Bhaina', cursive;
+      text-align: left;
+      font-size: 2.7em;
+      margin: 70px 50px 0;
+      line-height: 60px;
+      text-shadow: 0px 2px 3px rgba(90, 90, 90, 0.5); }
+      @media only screen and (max-width: 992px) {
+        header .header-content h1 {
+          color: #021F2D;
+          text-align: center;
+          font-size: 2em;
+          line-height: 45px;
+          padding: 15px;
+          margin: 0; } }
+    header .header-content h2 {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
+      font-size: 1.5em;
+      margin: 0;
+      display: block;
+      line-height: 1.4em;
+      margin: 15px 50px 70px;
+      text-shadow: 0px 2px 1px rgba(90, 90, 90, 0.5); }
+      @media only screen and (max-width: 992px) {
+        header .header-content h2 {
+          text-align: center;
+          color: #021F2D;
+          font-size: 1.4em;
+          margin: 0 auto; } }
+    header .header-content a {
+      padding: 0 25px;
+      margin: 0 auto; }
+      header .header-content a button {
+        font-size: 20px;
+        padding: 0 30px;
+        height: 60px;
+        margin: 15px 0 30px 50px; }
+        @media only screen and (max-width: 992px) {
+          header .header-content a button {
+            margin: 0 auto;
+            font-size: 1.5em;
+            display: block; } }
+
+/***************** FEATURES *****************/
+#features {
+  padding: 200px 0; }
+  #features .features-box {
+    max-width: 1000px;
+    display: block;
+    margin: 60px auto; }
+    #features .features-box img {
+      border: 3px solid;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto; }
+    #features .features-box .description {
+      display: block;
+      margin-top: 35px;
+      text-align: center; }
+      @media screen and (min-width: 768px) {
+        #features .features-box .description {
+          transform: translateY(45px); } }
+    @media screen and (max-width: 767px) {
+      #features .features-box .desktop {
+        display: none; } }
+    @media screen and (min-width: 768px) {
+      #features .features-box .mobile {
+        display: none; } }
+
+/*# sourceMappingURL=style.css.map */
