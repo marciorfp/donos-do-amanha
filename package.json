@@ -1,7 +1,7 @@
 {
-  "name": "template-apartments",
+  "name": "template-ong",
   "version": "1.0.0",
-  "description": "Internal landing page template for apartments sales",
+  "description": "Landing page template for ONG Donos do Amanhã",
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/market-lab/template-apartments.git"
+        "url": "git+https://github.com/marciorfp/donos-do-amanha.git"
   },
-  "author": "MarketLab",
+  "author": "Marcio",
   "contributors": [
-    "Gustavo Sobral <ghsobral@gmail.com>"
+    "Gustavo Sobral <marciorfp@gmail.com>"
   ],
   "keywords": [
     "landing-page",
@@ -21,9 +21,9 @@
     "sass"
   ],
   "bugs": {
-    "url": "https://github.com/market-lab/template-apartments/issues"
+    "url": "https://github.com/marciorfp/donos-do-amanha/issues"
   },
-  "homepage": "https://github.com/market-lab/template-apartments#readme",
+  "homepage": "https://github.com/marciorfp/donos-do-amanha#readme",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
