@@ -1,4 +1,6 @@
-# [Template] Donos do Amanhã
-Landing page template for ONG Donos do Amanhã
-
-
+# NOME-DO-PROJETO
+## Descrição
+## Objetivo
+## Inspiração
+## Protótipos
+## Screenshots
