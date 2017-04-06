@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Donos do Amanhã</title>
@@ -44,7 +44,6 @@
 </head>
 
 <body>
-
   <nav id="nav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -68,34 +67,104 @@
     </div>
   </nav>
 
-  <section id="about-main">
+  <header id="home">
     <div class="mask"></div>
-     <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/BG.jpg" alt="home donos do amanhã">
-      <div class="header-content">            
-      <h1>SUA AJUDA É ESSENCIAL PARA<br>MANTER NOSSAS CRIANÇAS</h1>
-      <h2>vamos unir forças em prol desta causa,<br>multiplique solidariedade, juntos somos mais fortes.</h2>
-      <a class="smooth-scroll" href="#contact">
-        <button class="green-button">QUERO FAZER UMA DOAÇÃO</button>
-      </a>
-    </div>            
-  </section>
-
-  <section id="history">
-    <div class="history-box row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/donos-do-amanha-fachada.jpg">      
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="history-text">
-          <h2>Conheça nossa historia</h2>
-          <p>A Associação Donos do Amanhã nasceu em 2005 na cidade de João Pessoa por iniciativa da médica Andréa Gadelha e colaboradores que se propuseram a oferecer uma qualidade de vida melhor para as crianças e adolescentes que estão na luta contra o câncer, através de doações de todos os tipos e trabalhos voluntários regados de muito amor e carinho. A associação atende crianças e adolescentes vindos de todo o Estado da Paraíba em busca de tratamento médico em João Pessoa. Os auxílios aos beneficiados incluem aliementação, local para descanso e espera do atendimento ambulatorial, cestas básicas e orientação para obter documentação e o mais importante muita atenção e carinho prestados por toda nossa equipe. 
-          Existem várias formas de ajudar nossas crianças através de doações pela central de atendimento ou depósito bancário, materiais de higiene pessoal, alimentação ou sendo um de um volutário. Funcionamos de segunda aos sábados e estamos de portas abertas para receber sua visita, venham conhecer nosso trabalho !</p>      
+    <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/home.jpg" alt="sobre donos do amanhã">
+    <div class="header-content">                  
+      <h1>JUNTE-SE A NÓS NA LUTA CONTRA O CANCÊR INFANTIL</h1>
+      <h2>Abrace essa causa você também,<br>multiplique solidariedade, juntos somos mais fortes.</h2>
+      <form>
+        <div class="row form-inputs">
+          <div class="input-field col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="label-icon">
+              <i class="material-icons prefix col-xs-2 col-sm-2 col-md-2 col-lg-2">account_circle</i>
+              <input id="icon_prefix" name="name" type="text" placeholder="Name" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" required>
+            </div>
+            <i class="validation-msg validation-name col-xs-12 col-sm-12 col-md-12 col-lg-12">! Please write your name</i>
+          </div>
+          <div class="input-field col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="label-icon">
+              <i class="material-icons prefix col-xs-2 col-sm-2 col-md-2 col-lg-2">phone</i>
+              <input id="icon_telephone" name="phone" type="tel" placeholder="Phone" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" required>
+            </div>
+            <i class="validation-msg validation-phone col-xs-12 col-sm-12 col-md-12 col-lg-12">! Please write your name</i>
+          </div>                           
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <button >ENVIAR</button>                        
+          </div>                        
         </div>
-      </div>     
-    </div>
-  </section>
+      </form>
+    </div>    
+  </header>
 
-  
+  <section id="about">
+    <div class="about-box">
+      <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/logo/Logo.png" alt="logo Donos do amanhã">
+      <p>Associação de Combate ao Câncer Infantil. Oferecemos qualidade de vida à crianças e adolescentes e apoiamos suas famílias na luta contra o câncer infantil na Paraiba. Câncer Infantil tem Cura!</p>    
+    </div>
+  </section> 
+
+  <section id="features">
+    <div class="title">
+      <h1>OFERECEMOS</h1>
+    </div>
+    <div class="row features-box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-6 icon">
+          <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/icon/donos-do-amanha-alimentacao.jpg">
+        </div>
+        <div class="col-sm-6 description">
+          <p>Alimentação</p>
+        </div>       
+      </div>
+    </div>
+    <div class="row features-box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+        <div class="col-sm-6 description desktop">
+          <p>Higiene</p>
+        </div>      
+        <div class="col-sm-6 icon">
+          <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/icon/donos-do-amanha-higiene.jpg">
+        </div>
+        <div class="col-sm-6 description mobile">
+          <p>Higiene</p>
+        </div>      
+      </div>
+    </div>
+    <div class="row features-box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-6 icon">
+          <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/icon/donos-do-amanha-descanso.jpg">
+        </div>
+        <div class="col-sm-6 description">
+          <p>Descanso</p>
+        </div>       
+      </div>
+    </div>
+    <div class="row features-box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+        <div class="col-sm-6 description desktop">
+          <p>Atendimento ambulatorial</p>
+        </div>      
+        <div class="col-sm-6 icon">
+          <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/icon/donos-do-amanha-atendimento-ambulatorial.jpg">
+        </div>
+        <div class="col-sm-6 description mobile">
+          <p>Atendimento ambulatorial</p>
+        </div>      
+      </div>
+    </div>
+    <div class="row features-box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-6 icon  animated infinite bounce">
+          <img src="https://s3-sa-east-1.amazonaws.com/donos-do-amanha/icon/donos-do-amanha-carinho.jpg">
+        </div>
+        <div class="col-sm-6 description">
+          <p>Carinho</p>
+        </div>       
+      </div>
+    </div>   
+  </section>
 
   <section id="contact">
     <div class="title">
@@ -139,13 +208,18 @@
           
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <button >SEND IT</button>
+          <button >ENVIAR</button>
         </div>
       </div>
     </form>
   </section>
 
-  
+  <section id="map">
+    <div class="title">
+      <h1>NOSSA LOCALIZAÇÃO</h1>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9445527114344!2d-34.875422585225905!3d-7.132410594849717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace81aa0d31505%3A0xbd6535331315c6cb!2sDonos+do+Amanh%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1489589306230"  frameborder="0" style="border:0" allowfullscreen></iframe>    
+  </section>
 
   <section id="social-media">
     <div class="row">      
@@ -162,8 +236,8 @@
     <nav>
       <ul>
         <li><a href="/index.html">Inicio</a></li>
-          <li><a href="/about.html">Sobre</a></li>
-          <li><a href="/contact.html">Contato</a></li>
+        <li><a href="/about.html">Sobre</a></li>
+        <li><a href="/contact.html">Contato</a></li>
       </ul>      
     </nav>
     <div class="row">
