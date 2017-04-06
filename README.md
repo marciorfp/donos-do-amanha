@@ -1,6 +1,10 @@
 # NOME-DO-PROJETO
 ## Descrição
+  Website da ONG Donos do amanhã
 ## Objetivo
+  Atração de voluntários para a ONG
 ## Inspiração
-## Protótipos
-## Screenshots
+  http://www.ici-rs.org.br/
+  http://donosdoamanhajp.blogspot.com.br/
+  http://marketlabdigital.com/
+
