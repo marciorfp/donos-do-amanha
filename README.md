@@ -1,10 +1,8 @@
-# NOME-DO-PROJETO
-## Descrição
-  Website da ONG Donos do amanhã
-## Objetivo
-  Atração de voluntários para a ONG
-## Inspiração
-  http://www.ici-rs.org.br/
-  http://donosdoamanhajp.blogspot.com.br/
-  http://marketlabdigital.com/
+# Donos do Amanhã
+## Description
+  Website creation for Markup Language Course"
+## Objective
+  Study the markup languages  HTML and CSS
+
+
 
